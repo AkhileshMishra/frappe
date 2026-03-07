@@ -30,6 +30,7 @@ app_include_js = [
 ]
 
 app_include_css = [
+	"/assets/frappe/css/hrdl8-theme.css",
 	"desk.bundle.css",
 	"report.bundle.css",
 ]

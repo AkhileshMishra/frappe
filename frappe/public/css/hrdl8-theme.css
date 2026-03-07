@@ -1,0 +1,114 @@
+
+/* ============================================================
+   HRDL8 Theme — Workday-inspired with logo colors
+   Primary Blue: #0066B3  |  Cyan: #00C9D4  |  Gold: #F5C518
+   ============================================================ */
+
+/* --- Navbar (top bar) — deep blue like Workday --- */
+.navbar {
+  background: linear-gradient(135deg, #003D6B 0%, #0066B3 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+  border-bottom: 3px solid #F5C518 !important;
+}
+.navbar .nav-link, .navbar .navbar-brand, .navbar .search-bar .input-group,
+.navbar .notifications-icon, .navbar .navbar-toggler {
+  color: #fff !important;
+}
+.navbar .search-bar input {
+  background: rgba(255,255,255,0.15) !important;
+  border: 1px solid rgba(255,255,255,0.25) !important;
+  color: #fff !important;
+}
+.navbar .search-bar input::placeholder { color: rgba(255,255,255,0.6) !important; }
+.navbar .search-bar input:focus {
+  background: rgba(255,255,255,0.25) !important;
+  border-color: #F5C518 !important;
+}
+
+/* --- Sidebar — warm light background --- */
+.layout-side-section, .desk-sidebar {
+  background: #F8F6F0 !important;
+  border-right: 1px solid #E8E4DA !important;
+}
+.sidebar-menu .sidebar-label { color: #003D6B !important; font-weight: 600 !important; }
+.sidebar-menu a { color: #333 !important; }
+.sidebar-menu a:hover, .sidebar-menu a.active {
+  background: #0066B3 !important;
+  color: #fff !important;
+  border-radius: 6px !important;
+}
+
+/* --- Primary button — golden yellow --- */
+.btn-primary, .btn-primary-dark {
+  background: #F5C518 !important;
+  border-color: #E0B000 !important;
+  color: #003D6B !important;
+  font-weight: 600 !important;
+}
+.btn-primary:hover, .btn-primary-dark:hover {
+  background: #E0B000 !important;
+  border-color: #CC9E00 !important;
+  color: #003D6B !important;
+}
+.btn-primary:focus { box-shadow: 0 0 0 3px rgba(245,197,24,0.4) !important; }
+
+/* --- Secondary/default buttons --- */
+.btn-default, .btn-secondary {
+  border-color: #0066B3 !important;
+  color: #0066B3 !important;
+}
+.btn-default:hover, .btn-secondary:hover {
+  background: #0066B3 !important;
+  color: #fff !important;
+}
+
+/* --- Page heading --- */
+.page-head { border-bottom: 2px solid #F5C518 !important; }
+.page-head .title-text { color: #003D6B !important; }
+
+/* --- Cards & list views — clean with subtle shadow --- */
+.frappe-card, .widget.widget-shadow {
+  border-radius: 10px !important;
+  box-shadow: 0 2px 12px rgba(0,60,107,0.08) !important;
+  border: 1px solid #E8E4DA !important;
+}
+
+/* --- Links — blue --- */
+a { color: #0066B3; }
+a:hover { color: #004A80; }
+
+/* --- Workspace module cards --- */
+.widget.shortcut-widget-box {
+  border-left: 3px solid #0066B3 !important;
+}
+.widget.shortcut-widget-box:hover {
+  border-left-color: #F5C518 !important;
+  box-shadow: 0 4px 16px rgba(0,60,107,0.12) !important;
+}
+
+/* --- Indicators / badges --- */
+.indicator-pill.green, .badge-success { background: #00C9D4 !important; color: #003D6B !important; }
+.indicator-pill.blue { background: #0066B3 !important; }
+
+/* --- Login page --- */
+.page-card { border-top: 4px solid #F5C518 !important; border-radius: 10px !important; }
+.page-card .btn-primary { background: #0066B3 !important; color: #fff !important; border-color: #0066B3 !important; }
+.page-card .btn-primary:hover { background: #004A80 !important; }
+body[data-path="login"] { background: linear-gradient(135deg, #003D6B 0%, #0066B3 60%, #00C9D4 100%) !important; }
+
+/* --- Footer --- */
+.web-footer { background: #003D6B !important; color: rgba(255,255,255,0.8) !important; }
+.web-footer a { color: #F5C518 !important; }
+
+/* --- Frappe control focus --- */
+.frappe-control input:focus, .frappe-control select:focus, .frappe-control textarea:focus {
+  border-color: #0066B3 !important;
+  box-shadow: 0 0 0 3px rgba(0,102,179,0.15) !important;
+}
+
+/* --- Awesomebar (top search) dropdown --- */
+.awesomebar-dropdown .dropdown-item.active, .awesomebar-dropdown .dropdown-item:hover {
+  background: #0066B3 !important;
+  color: #fff !important;
+}
+
