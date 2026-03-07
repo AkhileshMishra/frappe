@@ -105,7 +105,7 @@ def get_versions():
 
 	        {
 	                "frappe": {
-	                        "title": "Frappe Framework",
+	                        "title": "HRDL8",
 	                        "version": "5.0.0"
 	                }
 	        }"""

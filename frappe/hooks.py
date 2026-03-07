@@ -542,9 +542,9 @@ standard_help_items = [
 		"is_standard": 1,
 	},
 	{
-		"item_label": "Frappe Support",
+		"item_label": "HRDL8 Support",
 		"item_type": "Route",
-		"route": "https://frappe.io/support",
+		"route": "/support",
 		"is_standard": 1,
 	},
 ]
