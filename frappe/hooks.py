@@ -27,6 +27,7 @@ app_include_js = [
 	"report.bundle.js",
 	"telemetry.bundle.js",
 	"billing.bundle.js",
+	"/assets/frappe/js/hrdl8-help-chat.js",
 ]
 
 app_include_css = [
