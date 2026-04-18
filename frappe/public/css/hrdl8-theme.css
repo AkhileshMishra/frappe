@@ -11,8 +11,15 @@
   border-bottom: 3px solid #F5C518 !important;
 }
 .navbar .nav-link, .navbar .navbar-brand, .navbar .search-bar .input-group,
-.navbar .notifications-icon, .navbar .navbar-toggler {
-  color: #fff !important;
+.navbar .notifications-icon, .navbar .navbar-toggler,
+.navbar .text-muted, .navbar .text-dark,
+.navbar .navbar-nav a, .navbar .nav-link .badge,
+.navbar .dropdown-toggle, .navbar .navbar-nav .nav-link {
+  color: #FFF8DC !important;
+}
+.navbar .nav-link:hover, .navbar .navbar-nav a:hover,
+.navbar .dropdown-toggle:hover {
+  color: #F5C518 !important;
 }
 .navbar .search-bar input {
   background: rgba(255,255,255,0.15) !important;
@@ -88,7 +95,7 @@ a:hover { color: #004A80; }
 
 /* --- Indicators / badges --- */
 .indicator-pill.green, .badge-success { background: #00C9D4 !important; color: #003D6B !important; }
-.indicator-pill.blue { background: #0066B3 !important; }
+.indicator-pill.blue { background: #0066B3 !important; color: #fff !important; }
 
 /* --- Login page --- */
 .page-card { border-top: 4px solid #F5C518 !important; border-radius: 10px !important; }
